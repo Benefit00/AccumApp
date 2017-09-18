@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="za.co.benefittechnologies.firstapp.FourthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/principle_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/principle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789."
+            android:hint="@string/principal"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textStyle="bold"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/rate_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="@string/rate"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textStyle="bold"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/duration_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="@string/duration"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="@string/calculate"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/result_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789."
+            android:hint="@string/result"
+            android:inputType="number"
+            android:layout_marginTop="40dp"
+            android:maxLines="1"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/totalInterest_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/totalInterest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789."
+            android:hint="@string/totalInterest"
+            android:inputType="number"
+            android:layout_marginTop="40dp"
+            android:maxLines="1"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

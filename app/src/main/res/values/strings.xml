@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">First App</string>
+
+    <string name="textView">This is my new program!</string>
+    <string name="textView2">About me has to get some details.</string>
+    <string name="textView3">This is going to be the contact screen.</string>
+    <string name="textView4">This is going to be the calculator page</string>
+
+    <string name="principal">Principal Amount</string>
+    <string name="rate">Rate in months</string>
+    <string name="duration">Number of years</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Result</string>
+    <string name="totalInterest">Total Interest</string>
+
+
+
+</resources>
