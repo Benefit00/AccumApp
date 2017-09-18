@@ -80,6 +80,9 @@ public class FourthActivity extends AppCompatActivity {
     public float calcPrin(Float p){
         return p;
     }
+    public float calcPrint(Float p){
+        return p;
+    }
 
     public float calcRate(Float r){
         return  (r/12/100);
